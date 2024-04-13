@@ -31,7 +31,7 @@ def id_file1(id):
    all = True
  file.close()
  return all
-pg = "https://t.me/mnbjj/13" 
+ 
 ti=0
 users = []
 token = "6477545499:AAFurq6jQ1J5BuYeV3xdEdKSwnIU3HsZUzE"
@@ -66,9 +66,7 @@ def start(message):
 -» اشترك في القناة @{channel} .
 -» ثم ارسل /start ✅ </strong>''',reply_markup=z,parse_mode='html')
 
-      
-      bot.send_photo(message.chat.id,pg)
-      bot.send_message(message.chat.id,f"اليوم انزل مقاطع فول 😜🫶 بس ينحضرون") 
+      bot.send_message(message.chat.id,f"اهلا\tبك\tلبدأ\tالتحميل\tاضغط\n/TIKTOK") 
      
 @bot.message_handler(commands = ["TIKTOK"])
 def s1(message):
