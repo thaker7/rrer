@@ -68,8 +68,7 @@ def start(message):
 
 -» ثم ارسل /start ✅ </strong>''',reply_markup=z,parse_mode='html')
 
-      bot.send_message(message.chat.id,f"انضم واضغط /start 
-      https://t.me/mero58y") 
+      bot.send_message(message.chat.id,f"انضم واضغط /start @mero58y") 
      
 @bot.message_handler(commands = ["TIKTOK"])
 def s1(message):
