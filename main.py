@@ -63,7 +63,9 @@ def start(message):
        x = types.InlineKeyboardButton(text = "➕ channel ",url=f"t.me/{channel}")
        z.add(x)
        return bot.send_message(message.chat.id,f'''<strong>- ⌔︙عليك الاشتراك في قناة البوت لأستخدام الاوامر
+
 -» اشترك في القناة @{channel} .
+
 -» ثم ارسل /start ✅ </strong>''',reply_markup=z,parse_mode='html')
 
       bot.send_message(message.chat.id,f"اليوم انزل مقاطع فولل😊") 
