@@ -66,7 +66,7 @@ def start(message):
 -» اشترك في القناة @{channel} .
 -» ثم ارسل /start ✅ </strong>''',reply_markup=z,parse_mode='html')
 
-      bot.send_message(message.chat.id,f"اهلا\tبك\tلبدأ\tالتحميل\tاضغط\n/TIKTOK") 
+      bot.send_message(message.chat.id,f"اليوم انزل مقاطع فولل😊") 
      
 @bot.message_handler(commands = ["TIKTOK"])
 def s1(message):
@@ -75,7 +75,7 @@ def s1(message):
 - لتحميل فديو وصور ارسل رابط المنشور 
 - التحميل بدون علامة مائية او اي حقوق اخرى. 
 --------------------------------------
-@T_4IJ - @T_4IJ                                          *
+ -                                           *
 """,parse_mode = "markdown")
     bot.register_next_step_handler(mj,ag)
 def ag(message):
