@@ -68,7 +68,7 @@ def start(message):
 
 -» ثم ارسل /start ✅ </strong>''',reply_markup=z,parse_mode='html')
 
-      bot.send_message(message.chat.id,f"اشترك @menu75") 
+      bot.send_message(message.chat.id,f"اهلا\tبك\tلبدأ\tالتحميل\tاضغط\n/TIKTOK") 
      
 @bot.message_handler(commands = ["TIKTOK"])
 def s1(message):
